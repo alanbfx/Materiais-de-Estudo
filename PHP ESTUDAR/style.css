@@ -1,0 +1,100 @@
+@font-face {
+    font-family: Varela;
+    src: url(fonts/VarelaRound-Regular.ttf) format("TrueType");
+}
+body {
+    background-color: rgb(101, 64, 236);
+}
+header{
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 2px;
+    margin: auto;
+    margin-bottom: 8px;
+    width: 25vw;
+    text-align: center;
+    box-shadow: 0 0 6px #676767;
+    font-family: Varela;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+section{
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 14px;
+    margin: auto;
+    margin-bottom: 8px;
+    width: 25vw;
+    max-width: fit-content;
+    box-shadow: 0 0 6px #676767;
+    font-family: Varela;
+}
+label{
+    text-align: left;
+    margin-left: 12px;
+    font-size: small;
+    font-family: Varela;
+    margin-bottom: 7px;
+}
+
+input{
+    text-align: left;
+    margin-left: 10px;
+    font-size: medium;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    outline: none;
+    padding: 5px;
+    font-family: Varela;
+    margin-bottom: 5px;
+    width: 90%;
+    color: #000000;
+}
+input:focus{
+    border-color: #8f5deb;
+    box-shadow: 0 0 0 2px rgba(115, 0, 255, 0.25);
+}
+.meu-select{
+    padding: 5px;
+    font-size: medium;
+    color: #000000;
+    background-color: white;
+    border-radius: 4px;
+    width: 200px;
+    margin-left: 12px;
+    border: 2px solid #000000;
+    font-family: Varela;
+  }
+  
+.meu-select:focus{
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+  }
+button{
+    background-color: rgb(101, 64, 236);
+    padding: 10px;
+    font-family: Varela;
+    margin: auto;
+    margin-top: 5px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    align-items: center;
+    margin-left: 160px;
+}
+button:hover{
+    background-color: rgb(45, 11, 169);
+    color: white;
+    transition: 400ms;
+}
+p{
+    text-align: center;
+    margin: auto;
+    margin-top: 12px;
+}
