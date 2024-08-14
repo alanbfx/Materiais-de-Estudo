@@ -9,7 +9,7 @@ define("PASSWORD", "");
 
 <?php
 try{
-$con = new PDO("mysql:host=" . HOST .";dbname=" . DATABASE, . USER, . PASSWORD); 
+$con = new PDO("mysql:host=" . HOST .";dbname=" . DATABASE, USER, PASSWORD); 
 echo "Conexão realizada com sucesso!<br>";
 }
 catch(PDOException $e){
